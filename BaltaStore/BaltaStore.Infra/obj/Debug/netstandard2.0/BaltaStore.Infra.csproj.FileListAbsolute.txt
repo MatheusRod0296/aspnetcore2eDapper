@@ -6,3 +6,11 @@ C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\B
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.AssemblyInfo.cs
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.dll
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.pdb
+C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Infra.deps.json
+C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Infra.dll
+C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Infra.pdb
+C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.csprojAssemblyReference.cache
+C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.AssemblyInfoInputs.cache
+C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.AssemblyInfo.cs
+C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.dll
+C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.pdb
