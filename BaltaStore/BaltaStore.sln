@@ -1,18 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.APi", "BaltaStore.APi\BaltaStore.APi.csproj", "{7CD26ABD-6BF3-4913-B9D5-8106636ED023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.APi", "BaltaStore.APi\BaltaStore.APi.csproj", "{7CD26ABD-6BF3-4913-B9D5-8106636ED023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Domain", "BaltaStore.Domain\BaltaStore.Domain.csproj", "{66F4372F-3502-4BAD-BC95-A0F21C9D4F03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Domain", "BaltaStore.Domain\BaltaStore.Domain.csproj", "{66F4372F-3502-4BAD-BC95-A0F21C9D4F03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Infra", "BaltaStore.Infra\BaltaStore.Infra.csproj", "{F6B23A64-DE69-4A1E-B617-07E21C3A7D5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Infra", "BaltaStore.Infra\BaltaStore.Infra.csproj", "{F6B23A64-DE69-4A1E-B617-07E21C3A7D5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Shared", "BaltaStore.Shared\BaltaStore.Shared.csproj", "{ECF8ADF3-B438-452E-8E51-5A5120220E98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Shared", "BaltaStore.Shared\BaltaStore.Shared.csproj", "{ECF8ADF3-B438-452E-8E51-5A5120220E98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaStore.Tests", "BaltaStore.Tests\BaltaStore.Tests.csproj", "{C74B9394-8D53-4A23-9747-70FB55A8CAD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaltaStore.Tests", "BaltaStore.Tests\BaltaStore.Tests.csproj", "{C74B9394-8D53-4A23-9747-70FB55A8CAD8}"
 EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7CD26ABD-6BF3-4913-B9D5-8106636ED023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -86,5 +84,23 @@ Global
 		{C74B9394-8D53-4A23-9747-70FB55A8CAD8}.Release|x64.Build.0 = Release|Any CPU
 		{C74B9394-8D53-4A23-9747-70FB55A8CAD8}.Release|x86.ActiveCfg = Release|Any CPU
 		{C74B9394-8D53-4A23-9747-70FB55A8CAD8}.Release|x86.Build.0 = Release|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Debug|x86.Build.0 = Debug|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Release|x64.Build.0 = Release|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Release|x86.ActiveCfg = Release|Any CPU
+		{B9988071-D8B5-4B1C-B8A8-CCB76A83FA1A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B33029DC-4606-47F9-9668-FCD552E0D181}
 	EndGlobalSection
 EndGlobal

@@ -23,6 +23,13 @@ namespace BaltaStore.Domain.StoreContext.Entities
             Image = image;
             Price = price;
             QuantityOnHand = quantityOnHand;
+
+            
+        }
+
+        public void DecreaseQuantity(decimal quantity){
+            QuantityOnHand -= quantity ;
+
         }
     }
 }
