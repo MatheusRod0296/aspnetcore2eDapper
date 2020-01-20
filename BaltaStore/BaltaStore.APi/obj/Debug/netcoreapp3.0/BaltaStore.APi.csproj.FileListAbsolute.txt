@@ -7,7 +7,6 @@ C:\Projects\BaltaProjects\BaltaStore\BaltaStore.APi\bin\Debug\netcoreapp3.0\Balt
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.APi\bin\Debug\netcoreapp3.0\BaltaStore.APi.runtimeconfig.dev.json
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.APi\bin\Debug\netcoreapp3.0\BaltaStore.APi.dll
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.APi\bin\Debug\netcoreapp3.0\BaltaStore.APi.pdb
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.APi\obj\Debug\netcoreapp3.0\BaltaStore.APi.csprojAssemblyReference.cache
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.APi\obj\Debug\netcoreapp3.0\staticwebassets\BaltaStore.APi.StaticWebAssets.Manifest.cache
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.APi\obj\Debug\netcoreapp3.0\staticwebassets\BaltaStore.APi.StaticWebAssets.xml
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.APi\obj\Debug\netcoreapp3.0\BaltaStore.APi.MvcApplicationPartsAssemblyInfo.cache

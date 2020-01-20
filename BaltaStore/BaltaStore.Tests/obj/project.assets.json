@@ -2046,6 +2046,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BaltaStore.Shared": "1.0.0",
           "FluentValidator": "2.0.2"
         },
         "compile": {
@@ -2053,6 +2054,16 @@
         },
         "runtime": {
           "bin/placeholder/BaltaStore.Domain.dll": {}
+        }
+      },
+      "BaltaStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BaltaStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaltaStore.Shared.dll": {}
         }
       }
     }
@@ -2753,7 +2764,7 @@
       ]
     },
     "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "c3YNH1GQJbfIPJeCnr4avseugSqPrxwIqzthYyZDN6EuOyNOzq+y2KSUfRcXauya1sF4foESTgwM5e1A8arAKw==",
+      "sha512": "LdIvj7Bi2jiaNTqY/ezZGVXHe1KI5fjLSI026O1TjVzsmdgTP/zTF+f3nwHCjwttyhsPBEiswv0PekimPWZwWg==",
       "type": "package",
       "path": "runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -2779,7 +2790,7 @@
       ]
     },
     "runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
+      "sha512": "b+V9JC/Ii3sR659flBeaBJww111425tgjcDS1k+hqV4sGh9FALRDBvJnDtQ895gAzpPTUOFDHdqaZ2Et7BpZMg==",
       "type": "package",
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
@@ -2859,7 +2870,7 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
+      "sha512": "Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -2898,7 +2909,7 @@
       ]
     },
     "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "ytoewC6wGorL7KoCAvRfsgoJPJbNq+64k2SqW6JcOAebWsFUvCCYgfzQMrnpvPiEl4OrblUlhF2ji+Q1+SVLrQ==",
+      "sha512": "JGc0pAWRE8lB4Ucygk2pYSKbUPLlAIq6Bczf5/WF2D/VKJEPtYlVUMxk8fbl1zRfTWzSHi+VcFZlaPlWiNxeKg==",
       "type": "package",
       "path": "runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -5828,7 +5839,7 @@
       ]
     },
     "System.Security.Cryptography.Csp/4.3.0": {
-      "sha512": "X4s/FCkEUnRGnwR3aSfVIkldBmtURMhmexALNTwpjklzxWU7yjMk7GHLKOZTNkgnWnE0q7+BCf9N2LVRWxewaA==",
+      "sha512": "yO2k5o+Z+DiFRBvvB9vdRRAGHi6bm02M9OWXfCqQ8K0UxD3Woc3svQheZfb7PoTEFs0kGacO0IzzMWsb6Mkeow==",
       "type": "package",
       "path": "system.security.cryptography.csp/4.3.0",
       "files": [
@@ -5899,7 +5910,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
+      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -6828,6 +6839,11 @@
       "type": "project",
       "path": "../BaltaStore.Domain/BaltaStore.Domain.csproj",
       "msbuildProject": "../BaltaStore.Domain/BaltaStore.Domain.csproj"
+    },
+    "BaltaStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BaltaStore.Shared/BaltaStore.Shared.csproj",
+      "msbuildProject": "../BaltaStore.Shared/BaltaStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6840,23 +6856,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pichau\\.nuget\\packages\\": {},
+    "C:\\Users\\drt48028\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\aspnetcore2eDapper\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj",
+      "projectUniqueName": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj",
       "projectName": "BaltaStore.Tests",
-      "projectPath": "C:\\projects\\aspnetcore2eDapper\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj",
-      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\aspnetcore2eDapper\\BaltaStore\\BaltaStore.Tests\\obj\\",
+      "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Tests\\BaltaStore.Tests.csproj",
+      "packagesPath": "C:\\Users\\drt48028\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\drt48028\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6864,13 +6880,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://10.33.1.34:8081/repository/Einstein-Nuget": {},
+        "http://10.33.1.42:8081/repository/Einstein-Nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\projects\\aspnetcore2eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {
-              "projectPath": "C:\\projects\\aspnetcore2eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj"
+            "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {
+              "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj"
             }
           }
         }

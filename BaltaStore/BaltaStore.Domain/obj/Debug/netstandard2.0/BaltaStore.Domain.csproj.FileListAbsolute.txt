@@ -1,11 +1,3 @@
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.csprojAssemblyReference.cache
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.AssemblyInfoInputs.cache
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.AssemblyInfo.cs
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Domain.deps.json
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Domain.dll
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Domain.pdb
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.dll
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.pdb
 C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Domain.deps.json
 C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Domain.dll
 C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Domain.pdb
@@ -14,3 +6,14 @@ C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netstandar
 C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.dll
 C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.pdb
 C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.csprojAssemblyReference.cache
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Domain.deps.json
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Domain.dll
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Domain.pdb
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Shared.dll
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\bin\Debug\netstandard2.0\BaltaStore.Shared.pdb
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.csprojAssemblyReference.cache
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.AssemblyInfoInputs.cache
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.AssemblyInfo.cs
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.csproj.CopyComplete
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.dll
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Domain\obj\Debug\netstandard2.0\BaltaStore.Domain.pdb

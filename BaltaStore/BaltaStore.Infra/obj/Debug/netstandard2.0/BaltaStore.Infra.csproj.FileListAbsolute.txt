@@ -1,7 +1,6 @@
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Infra.deps.json
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Infra.dll
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Infra.pdb
-C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.csprojAssemblyReference.cache
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.AssemblyInfoInputs.cache
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.AssemblyInfo.cs
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.dll

@@ -129,7 +129,6 @@ namespace BaltaStore.Tests.EntitiesTests
            
         }
 
-        
 
 
 

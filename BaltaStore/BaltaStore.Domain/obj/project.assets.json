@@ -37,6 +37,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "BaltaStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BaltaStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaltaStore.Shared.dll": {}
+        }
       }
     }
   },
@@ -195,32 +205,38 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "BaltaStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BaltaStore.Shared/BaltaStore.Shared.csproj",
+      "msbuildProject": "../BaltaStore.Shared/BaltaStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "BaltaStore.Shared >= 1.0.0",
       "FluentValidator >= 2.0.2",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pichau\\.nuget\\packages\\": {},
+    "C:\\Users\\drt48028\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\aspnetcore2eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
+      "projectUniqueName": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
       "projectName": "BaltaStore.Domain",
-      "projectPath": "C:\\projects\\aspnetcore2eDapper\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
-      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\aspnetcore2eDapper\\BaltaStore\\BaltaStore.Domain\\obj\\",
+      "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj",
+      "packagesPath": "C:\\Users\\drt48028\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\drt48028\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -228,11 +244,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://10.33.1.34:8081/repository/Einstein-Nuget": {},
+        "http://10.33.1.42:8081/repository/Einstein-Nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj": {
+              "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
