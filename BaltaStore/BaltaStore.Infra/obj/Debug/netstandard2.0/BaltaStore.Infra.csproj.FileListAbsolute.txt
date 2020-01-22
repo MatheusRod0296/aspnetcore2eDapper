@@ -13,3 +13,4 @@ C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard
 C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.AssemblyInfo.cs
 C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.dll
 C:\projects\aspnetcore2eDapper\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.pdb
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.csprojAssemblyReference.cache
