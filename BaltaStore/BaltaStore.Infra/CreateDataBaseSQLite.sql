@@ -1,4 +1,6 @@
-create table [Customer]
+ -----SQLite
+
+ create table [Customer]
 (
      [Id] Uniqueidentifier Primary key not null
     ,[FirstName] varchar(40) not null
@@ -8,7 +10,7 @@ create table [Customer]
     ,[Pohone] varchar(13) not null
 )
 
-create table [Adress]
+ create table [Adress]
 (
      [Id] Uniqueidentifier Primary key not null
     ,[CustomerId] Uniqueidentifier not null
@@ -20,10 +22,16 @@ create table [Adress]
     ,[Country] char(2) not null
     ,[Zipcode] char(8) not null
     ,[Type]  int not null default(1)
-    ,Foreign key ([CustomerId] references [Customer](Id))
-    
+    ,constraint FK_Adress_Customer Foreign key (CustomerId) references "Customer"(Id)
+   
     
 )
+
+
+
+
+
+
 
 create table [Product]
 (
@@ -35,15 +43,15 @@ create table [Product]
       ,[quantityOnHand] Decimal(10,2) not null
 )
 
+
 create table [Order]
 (
     [Id] Uniqueidentifier Primary key not null
-    ,[costumerId] Uniqueidentifier not null
+    ,[CustomerId] Uniqueidentifier not null
     ,[createDate] DateTime not null default(GetDate())
     ,[status] int not null default(1)
-    ,Foreign key ([CustomerId]) references ([Customer]([Id]))
+    ,constraint FK_Order_Customer Foreign key (CustomerId) references "Customer"([Id])
 )
-
 
 create table [OrderItem]
 (
@@ -52,8 +60,8 @@ create table [OrderItem]
     ,[ProductId] Uniqueidentifier not null
     ,[Qunatity] decimal(10,2) not null
     ,[price] money not null  
-    ,Foreign key ([OrderId]) references ([OrderId]([Id]))
-    ,Foreign key ([ProductId]) references ([Product]([Id]))
+    ,constraint FK_orderItem_Order Foreign key ([OrderId]) references "Order"([Id])
+    ,constraint FK_product_orderItem Foreign key ([ProductId]) references "Product"([Id])
 )
 
 create table [Delivery]
@@ -63,6 +71,66 @@ create table [Delivery]
       ,[createDate] DateTime not null default(GetDate())
       ,[EstimatedateDeliveryDate] DateTime not null
       ,[status] int not null default(1)
-      ,Foreign key ([OrderId]) references ([OrderId]([Id]))
+      ,CONSTRAINT FK_Delivery_Order Foreign key (OrderId) references "OrderId"([Id])
 )
 
+
+select case when EXISTS (
+	select id from Customer where Document = '48892048844'
+)
+then cast(1 as bit)
+else cast(0 as bit) end
+
+
+select case when EXISTS (
+	select id from Customer where Email = 'Matheus@rodrigues.com'
+)
+then cast(1 as bit)
+else cast(0 as bit) end
+
+
+INSERT into Adress
+(	id
+	,CostumerId
+	,Number
+	,Complement
+    ,District
+    ,City
+    ,state
+    ,Country
+    ,Zipcode
+    ,Type)
+
+    values(
+         @Id
+        ,@CostumerId
+	    ,@Number
+	    ,@Complement
+        ,@District
+        ,@City
+        ,@state
+        ,@Country
+        ,@Zipcode
+        ,@Type
+    )
+
+insert into Costumer
+(
+    id
+    ,FirstName
+    ,LastName
+    ,Document
+    ,Email
+    ,Pohone
+
+)
+
+Values 
+(
+     @id
+    ,@FirstName
+    ,@LastName
+    ,@Document
+    ,@Email
+    ,@Pohone
+)
