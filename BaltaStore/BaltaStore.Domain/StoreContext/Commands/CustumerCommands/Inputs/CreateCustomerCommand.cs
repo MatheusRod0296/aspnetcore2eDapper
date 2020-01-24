@@ -6,7 +6,7 @@ namespace BaltaStore.Domain.StoreContext.Commands.CustumerCommands.Inputs
 {
     public class CreateCustomerCommand : Notifiable, ICommand
     {
-        //fail Fail validation
+        //fail fast validation
         public string FirstName { get; set; }
 
         public string LastName { get; set; }

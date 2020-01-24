@@ -1,12 +1,13 @@
 using BaltaStore.Domain.StoreContext.Services;
 
-namespace BaltaStore.Tests.Mocks
+namespace BaltaStore.Infra.StoreContext.Services
 {
-    public class MockEmailService : IEmailService
+    public class EmailService : IEmailService
     {
+
         public void Send(string to, string from, string subject, string body)
         {
-            
+           //TODO: implementar
         }
     }
 }

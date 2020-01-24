@@ -17,9 +17,9 @@ namespace BaltaStore.Domain.StoreContext.Handlers
 
     {
         private readonly ICustomerRepository _customerRepository;
-        private readonly IEMailServices _emailService;
+        private readonly IEmailService _emailService;
 
-        public CustomerHandler(ICustomerRepository customerRepository, IEMailServices emailService)
+        public CustomerHandler(ICustomerRepository customerRepository, IEmailService emailService)
         {
             _customerRepository = customerRepository;
             _emailService = emailService;

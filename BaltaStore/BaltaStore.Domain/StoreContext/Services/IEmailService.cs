@@ -1,6 +1,6 @@
 namespace BaltaStore.Domain.StoreContext.Services
 {
-    public interface IEMailServices
+    public interface IEmailService
     {
          void Send(string to, string from, string subject, string body);
     }
