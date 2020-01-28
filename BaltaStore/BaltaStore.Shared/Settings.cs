@@ -2,6 +2,6 @@ namespace BaltaStore.Shared
 {
     public static class Settings
     {
-        public static string ConnectionString = @"Data Source=BaltaStore.db; Version=3";
+        public static string ConnectionString ;
     }
 }

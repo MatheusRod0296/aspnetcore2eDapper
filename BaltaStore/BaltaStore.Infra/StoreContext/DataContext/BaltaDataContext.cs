@@ -11,14 +11,9 @@ namespace BaltaStore.Infra.StoreContext.DataContext
         public SQLiteConnection Connection { get; set; }
 
         public BaltaDataContext(){            
-            Connection = new SQLiteConnection(Settings.ConnectionString);
-            try
-            {
-                Connection.Open();
-            }catch(Exception ex)
-            {
-
-            }
+            Connection = new SQLiteConnection(Settings.ConnectionString);           
+            Connection.Open();
+           
             
         }
 
