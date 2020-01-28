@@ -51,7 +51,7 @@ namespace BaltaStore.Domain.StoreContext.Handlers
             AddNotifications(customer.Notifications);
 
             if (Invalid)
-                return null;
+               return new CommandResult(false, "Falha ao tentar cadastrar", Notifications  );
 
             //persistir
             _customerRepository.Save(customer);
@@ -60,12 +60,13 @@ namespace BaltaStore.Domain.StoreContext.Handlers
             _emailService.Send(email.Adress, "matheus@Aula.com", "bem vindo", "bem vindo");
 
             // retornar resultado para
-            return new CreateCustomerCommandResult(customer.Id, customer.Name.ToString(), customer.Email.ToString());
+            return new CommandResult(true, "bem vindo ao balta store", 
+            new CreateCustomerCommandResult(customer.Id, customer.Name.ToString(), customer.Email.ToString()));
         }
 
         public ICommandResult Handler(AddAdressCommand command)
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

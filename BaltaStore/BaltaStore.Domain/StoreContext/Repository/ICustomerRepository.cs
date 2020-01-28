@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using BaltaStore.Domain.StoreContext.Entities;
 using BaltaStore.Domain.StoreContext.Queries;
 
@@ -10,6 +12,11 @@ namespace BaltaStore.Domain.StoreContext.Repository
 
          void Save(Customer customer);
          
-         CustomerOrdersCountResult GetCustomerOrdersCount(string Document);
+         CustomerOrdersCountResult GetCustomerOrdersCount(string document);
+
+         IEnumerable<ListCustomerResultQuery> Get();
+         GetCustomerResultQuery Get(Guid id);
+
+         IEnumerable<ListCustomerOrdersResultQuery> GetOrders(Guid id);
     }
 }

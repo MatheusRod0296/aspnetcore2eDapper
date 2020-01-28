@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using BaltaStore.Domain.StoreContext.Entities;
 using BaltaStore.Domain.StoreContext.Queries;
@@ -38,7 +40,7 @@ namespace BaltaStore.Infra.StoreContext.Respositories
             return _context.Connection.Query<bool>(script, new {email}).FirstOrDefault();
         }
 
-        public CustomerOrdersCountResult GetCustomerOrdersCount(string Document)
+        public CustomerOrdersCountResult GetCustomerOrdersCount(string document)
         {
              var script = @"Select Custo.Id 
                             , FirstName || ' ' || LastName AS Name
@@ -48,34 +50,27 @@ namespace BaltaStore.Infra.StoreContext.Respositories
                         from Customer as Custo
                         left join [Order] as o
                         on Custo.Id = o.CustomerId
-                        where Custo.Document = @Document";
+                        where Custo.Document = @document";
 
-            return _context.Connection.Query<CustomerOrdersCountResult>(script, new {Document}).FirstOrDefault();
+            return _context.Connection.Query<CustomerOrdersCountResult>(script, new {document}).FirstOrDefault();
+        }
+
+        public IEnumerable<ListCustomerResultQuery> Get()
+        {
+             var script = @"Select Id 
+                            , FirstName || ' ' || LastName AS Name
+                            ,Document
+                            ,Email
+                        
+                        from Customer";
+
+            return _context.Connection.Query<ListCustomerResultQuery>(script);
         }
 
         public void Save(Customer customer)
         {
            
-            var scriptCustomer = @"insert into Costumer
-                                    (
-                                        id
-                                        ,FirstName
-                                        ,LastName
-                                        ,Document
-                                        ,Email
-                                        ,Pohone
-
-                                    )
-
-                                    Values 
-                                    (
-                                        @id
-                                        ,@FirstName
-                                        ,@LastName
-                                        ,@Document
-                                        ,@Email
-                                        ,@Pohone
-                                    )";
+            
 
             var scriptAdress = @"INSERT into Adress
                                     (	id
@@ -101,9 +96,39 @@ namespace BaltaStore.Infra.StoreContext.Respositories
                                             ,@Zipcode
                                             ,@Type
                                         )";
-            
 
-           _context.Connection.Execute(scriptCustomer, customer);
+            var scriptCustomer = @"insert into Customer
+                                    (
+                                        Id
+                                        ,FirstName
+                                        ,LastName
+                                        ,Document
+                                        ,Email
+                                        ,Pohone
+
+                                    )
+
+                                    Values 
+                                    (
+                                         @Id
+                                        ,@FirstName
+                                        ,@LastName
+                                        ,@Document
+                                        ,@Email
+                                        ,@Phone
+                                    )";
+
+
+            _context.Connection.Execute(scriptCustomer,
+                new
+                {
+                    Id = customer.Id,
+                    FirstName = customer.Name.FirstName,
+                    LastName = customer.Name.LastName,
+                    Document = customer.Document.ToString(),
+                    Email = customer.Email.ToString(),
+                    Phone = customer.Phone
+                }); 
 
            foreach (var adress in customer.Adresses)
            {
@@ -113,6 +138,26 @@ namespace BaltaStore.Infra.StoreContext.Respositories
 
 
 
+        }
+
+        public GetCustomerResultQuery Get(Guid id)
+        {
+            var script = @"Select Id 
+                            , FirstName || ' ' || LastName AS Name
+                            ,Document
+                            ,Email
+                        
+                        from Customer where [Id] = @id";
+
+            return _context.Connection.Query<GetCustomerResultQuery>(script, new {id}).FirstOrDefault();
+        }
+
+        public IEnumerable<ListCustomerOrdersResultQuery> GetOrders(Guid id)
+        {
+            //TODO: implementar Query
+           var script = @"";
+
+            return _context.Connection.Query<ListCustomerOrdersResultQuery>(script, new {id});
         }
     }
 }

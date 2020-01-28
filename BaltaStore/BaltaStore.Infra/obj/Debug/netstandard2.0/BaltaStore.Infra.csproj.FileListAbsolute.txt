@@ -11,3 +11,11 @@ C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\B
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.AssemblyInfo.cs
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Infra.deps.json
 C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Infra.dll
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Infra.pdb
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Domain.dll
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Shared.dll
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Shared.pdb
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\bin\Debug\netstandard2.0\BaltaStore.Domain.pdb
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.csproj.CopyComplete
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.dll
+C:\Projects\BaltaProjects\BaltaStore\BaltaStore.Infra\obj\Debug\netstandard2.0\BaltaStore.Infra.pdb

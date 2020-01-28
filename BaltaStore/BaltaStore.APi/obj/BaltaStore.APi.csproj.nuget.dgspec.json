@@ -35,6 +35,9 @@
               "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {
                 "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj"
               },
+              "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Infra\\BaltaStore.Infra.csproj": {
+                "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Infra\\BaltaStore.Infra.csproj"
+              },
               "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj": {
                 "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj"
               }
@@ -57,6 +60,18 @@
             "Microsoft.AspNetCore": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.ResponseCompression": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.112, )"
             }
           },
           "imports": [
@@ -133,6 +148,85 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Infra\\BaltaStore.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Infra\\BaltaStore.Infra.csproj",
+        "projectName": "BaltaStore.Infra",
+        "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Infra\\BaltaStore.Infra.csproj",
+        "packagesPath": "C:\\Users\\drt48028\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\drt48028\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.33.1.34:8081/repository/Einstein-Nuget": {},
+          "http://10.33.1.42:8081/repository/Einstein-Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj": {
+                "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Domain\\BaltaStore.Domain.csproj"
+              },
+              "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj": {
+                "projectPath": "C:\\Projects\\BaltaProjects\\BaltaStore\\BaltaStore.Shared\\BaltaStore.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.112, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
             }
           },
           "imports": [

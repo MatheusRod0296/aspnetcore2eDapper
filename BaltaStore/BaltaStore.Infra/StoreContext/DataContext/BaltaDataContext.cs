@@ -1,16 +1,25 @@
 using System;
 using System.Data.SqlClient;
+using System.Data.SQLite;
 using BaltaStore.Shared;
+
 
 namespace BaltaStore.Infra.StoreContext.DataContext
 {
     public class BaltaDataContext: IDisposable
     {
-        public SqlConnection Connection { get; set; }
+        public SQLiteConnection Connection { get; set; }
 
-        public BaltaDataContext(){
-            Connection = new SqlConnection(Settings.ConnectionString);
-            Connection.Open();
+        public BaltaDataContext(){            
+            Connection = new SQLiteConnection(Settings.ConnectionString);
+            try
+            {
+                Connection.Open();
+            }catch(Exception ex)
+            {
+
+            }
+            
         }
 
         public void Dispose(){
