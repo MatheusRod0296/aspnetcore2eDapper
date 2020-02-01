@@ -7111,7 +7111,7 @@
       "FluentValidator >= 2.0.2",
       "Microsoft.AspNetCore >= 2.2.0",
       "Microsoft.AspNetCore.ResponseCompression >= 2.0.1",
-      "Microsoft.Extensions.Configuration.Json",
+      "Microsoft.Extensions.Configuration.Json >= 3.1.1",
       "Swashbuckle.AspNetCore >= 5.0.0",
       "System.Data.SQLite.Core >= 1.0.112"
     ]
@@ -7183,7 +7183,7 @@
           },
           "Microsoft.Extensions.Configuration.Json": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[3.1.1, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
